@@ -1,0 +1,159 @@
+# Logfile created on 2014-09-28 15:10:28 -0500 by logger.rb/1.2.8
+[0;97;49mStarted GET "/" at 2014-09-28 15:10:49 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 95.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-09-28 15:19:00 -0500[0m
+Detecting locale EN
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-09-28 15:19:15 -0500
+[0;97;49mStarted GET "/" at 2014-09-28 15:19:16 -0500[0m
+Detecting locale EN
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-09-28 15:19:22 -0500
+[0;97;49mStarted GET "/" at 2014-09-28 15:19:23 -0500[0m
+Detecting locale EN
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-09-28 15:20:06 -0500
+[0;97;49mStarted GET "/" at 2014-09-28 15:20:08 -0500[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-09-28 15:20:45 -0500
+[0;97;49mStarted GET "/" at 2014-09-28 15:20:50 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-09-28 15:23:08 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-09-28 15:27:50 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 40.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-09-28 15:27:52 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-09-28 15:27:53 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-09-28 15:27:54 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.0ms
+
+[0m
+[0;97;49mStarted GET "/admin" at 2014-09-28 15:44:09 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-09-28 15:59:34 -0500
+[0;97;49mStarted GET "/admin" at 2014-09-28 15:59:38 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 5.9ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-09-28 15:59:40 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.0ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-09-28 15:59:42 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.0ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-09-28 15:59:45 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.4ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-09-28 15:59:46 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.7ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-09-28 15:59:49 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.8ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-09-28 15:59:51 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-09-28 15:59:52 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-09-28 15:59:53 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-09-28 16:00:46 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-09-28 16:00:47 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-09-28 16:00:48 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.3ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-09-28 16:00:49 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.4ms
+
+[0m
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-09-28 16:06:26 -0500

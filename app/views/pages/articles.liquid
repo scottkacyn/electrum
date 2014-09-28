@@ -1,0 +1,12 @@
+---
+title: Articles
+---
+{% extends parent %}
+{% block 'main' %}
+ {% for article in contents.articles %}
+ <div class="article">
+ <h2>{{ article.title }}</h2>
+ <p>{{ article.abstract }}</p>
+ </div>
+ {% endfor %}
+{% endblock %}
