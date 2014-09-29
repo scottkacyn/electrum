@@ -1,0 +1,56 @@
+# Public name of this content type
+name: Contacts
+
+# TODO: explain
+slug: contacts
+
+# Explanation for the backoffice
+description: A description of the content type for the editors
+
+# Default field (e.g title)
+label_field_name: name
+
+# Order of entries
+order_by: manually # default: manually, also available: created_at or any field slug
+
+# Order direction
+# order_direction: asc # default: asc, also available: desc
+
+# Display entries grouped by <field> in the backoffice
+# group_by: <your field>
+
+# Activate public 'create' API (e.g for a contact form)
+# public_submission_enabled: false
+
+# Emails to be notified on new entries using the public API
+# public_submission_accounts: ['john@acme.net']
+
+# Describe each field. The name shoud always be an underscored string
+fields: 
+- name: # Name of the field
+    label: Name
+    type: string
+    required: true
+    hint: A description of the field for the editors
+    localized: false
+
+- title: # Name of the field
+    label: Title
+    type: string
+    required: false
+    hint: A description of the field for the editors
+    localized: false
+
+- phone: # Name of the field
+    label: Phone
+    type: string
+    required: false
+    hint: A description of the field for the editors
+    localized: false
+
+- email: # Name of the field
+    label: Email
+    type: string
+    required: false
+    hint: A description of the field for the editors
+    localized: false

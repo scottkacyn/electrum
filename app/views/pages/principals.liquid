@@ -1,0 +1,12 @@
+---
+title: Principals
+---
+{% extends parent %}
+{% block 'main' %}
+ {% for principal in contents.principals %}
+ <div class="principal">
+ <h2>{{ principal.name }}</h2>
+ <p>{{ principal.about }}</p>
+ </div>
+ {% endfor %}
+{% endblock %}

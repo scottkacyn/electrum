@@ -9,20 +9,45 @@ title: Welcome
     {{ 'styles.css' | stylesheet_tag }}
   </head>
   <body>
-    <div id="logo"><img src="{{ 'logo.png' | theme_image_url }}" alt="Acme" /></div>
     <nav id="main-nav">
-      <a href="/">Home</a>
-      <a href="/articles">Articles</a>
+      <div class="wrapper">
+        <h1 class="logo"><a href="/">Electrum Partners</a></h1>
+        <ul>
+          <li><a href="/articles">Articles</a></li>
+          <li><a href="/research">Research</a></li>
+          <li><a href="/principals">Principals</a></li>
+          <li><a href="/contacts">Contact Us</a></li>
+          <li><a href="/resources">Resources</a></li>
+        </ul>
+      </div>
     </nav>
+    <div class="striped-divider"></div>
     <div id="content">
-      <h1>{{ page.title }}</h1>
       {% block 'main' %}
-      <p>
-        {% editable_text "welcome_message" %}
-        Welcome to Acme, the world's favorite cartoon company. 
-        {% endeditable_text %}
-      </p>
+      <div id="hero">
+        <div class="screen">
+          <p class="hero-text">
+            {% editable_text "welcome_message" %}
+            The finest lease-based financial products on the market
+            {% endeditable_text %}<br>
+            <a href="#">Learn More</a>
+          </p>
+        </div>
+      </div>
+      <div class="striped-divider"></div>
+      <div id="featured-articles">
+        {% for article in contents.articles limit:3 %}
+          <div class="article" id="article-{{ forloop.index }}">
+            <div class="color-screen" id="screen-{{ forloop.index }}">
+              <h2><a href="/articles/{{ article._slug }}">{{ article.title }}</a></h2>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
       {% endblock %}
     </div>
+    <!-- Javascripts -->
+    <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    {{ 'main.js' | javascript_tag }}
   </body>
 </html>

@@ -1,3 +1,214 @@
-body { text-align: center; }
-#logo, #main-nav, #content { width: 600px; margin:10px auto; }
-#content { text-align: left; }
+@font-face {
+    font-family: Brandon;
+    src: url(Brandon_reg.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Brandon;
+    src: url(Brandon_bld.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Brandon;
+    src: url(Brandon_light.otf);
+    font-weight: lighter;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+	font-family: Brandon, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	text-align: center; 
+}
+
+h1 {
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	position: relative;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+#main-nav { 
+	width: 100%;
+	height: 80px;
+	background: #31529c; /* Old browsers */
+	background: -moz-linear-gradient(top, #31529c 0%, #306396 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#31529c), color-stop(100%,#306396)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #31529c 0%,#306396 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #31529c 0%,#306396 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #31529c 0%,#306396 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #31529c 0%,#306396 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31529c', endColorstr='#306396',GradientType=0 ); /* IE6-9 */
+
+	overflow: hidden;
+}
+
+#main-nav ul {
+	height: 80px;
+	margin: 0;
+	list-style: none;
+}
+
+#main-nav ul:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#main-nav ul li {
+	float: left;
+	line-height: 80px;
+	margin: 0 25px;
+}
+
+#main-nav a {
+	font-weight: lighter;
+	display: block;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+#main-nav h1.logo a {
+	float: left;
+	color: #FFFFFF;
+	line-height: 80px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-right: 25px;
+}
+
+.striped-divider {
+	width: 100%;
+	height: 8px;
+	background: url(../images/debut_light.png) repeat #eee;
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+}
+
+#content { 
+	margin: 0 auto;
+	text-align: left; 
+}
+
+/* Hero Banner and Text */
+
+#hero {
+	display: table;
+	width: 100%;
+	height: 300px;
+	background: url(../images/buildings.jpeg) no-repeat center top #ddd;
+	background-size: cover;
+}
+
+.screen {
+	display: table;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+
+.color-screen {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.color-screen#screen-1 {
+	background: rgba(49,82,156,0.9);
+}
+
+.color-screen#screen-2 {
+	background: rgba(49,156,123,0.8);
+}
+
+.color-screen#screen-3 {
+	background: rgba(0,0,0,0.8);
+}
+
+.hero-text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 34px;
+	color: #FFFFFF;
+	padding: 0 10%;
+}
+
+.hero-text a {
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.hero-text a:hover {
+	color: #CCCCCC;
+}
+
+.subtle {
+	font-size: 14px;
+}
+
+/* Featured Articles */
+
+#featured-articles {
+	width: 100%;
+	overflow: hidden;
+}
+
+#featured-articles .article {
+	display: table;
+	text-align: center;
+	float: left;
+	width: 30%;
+	height: 350px;
+	margin: 20px 1%;
+	background: url(../images/el.jpeg) no-repeat center;
+	background-size: cover;
+}
+
+.article#article-1 {
+}
+
+.article#article-2 {
+	background: url(../images/city.jpg) no-repeat bottom;
+}
+
+.article#article-3 {
+	background: url(../images/buildings.jpeg) no-repeat bottom;
+}
+
+#featured-articles .article h2 {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	padding: 30px;
+}
+
+#featured-articles .article h2 a {
+	display: block;
+	color: #FFFFFF;
+	font-weight: lighter;
+}
+
+#featured-articles .article:first-child {
+	margin-left: 3%;
+}
+
+#featured-articles .article:last-child {
+	margin-right: 3%;
+}

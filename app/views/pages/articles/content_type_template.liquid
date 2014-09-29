@@ -1,0 +1,29 @@
+---
+title: Article Template
+listed: false
+published: true
+content_type: articles
+---
+{% extends parent %}
+
+{% block main %}
+
+  <div id="hero">
+    <div class="screen">
+      <p class="hero-text">
+      	<a href="/" class="subtle">[HOME]</a><br>
+      	{{ article.title }}
+      </p>
+    </div>
+  </div>
+  <div class="striped-divider"></div>
+  <div class="wrapper">
+  	<br>
+	<h2>Abstract</h2>
+	<p>{{ article.abstract }}</p>
+
+	<br>
+	<p>{{ article.body }}</p>
+	</div>
+
+{% endblock %}
