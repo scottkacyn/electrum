@@ -1,18 +1,18 @@
 @font-face {
     font-family: Brandon;
-    src: url(Brandon_reg.otf);
+    src: url(../fonts/Brandon_reg.otf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: Brandon;
-    src: url(Brandon_bld.otf);
+    src: url(../fonts/Brandon_bld.otf);
     font-weight: bold;
 }
 
 @font-face {
     font-family: Brandon;
-    src: url(Brandon_light.otf);
+    src: url(../fonts/Brandon_light.otf);
     font-weight: lighter;
 }
 
