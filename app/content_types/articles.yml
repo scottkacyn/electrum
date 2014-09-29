@@ -40,8 +40,7 @@ fields:
     required: false
     hint: A description of the field for the editors
     localized: false
-    # Enable or not the RTE [html|text]
-    # text_formatting: html
+    text_formatting: html
 
 - body: # Name of the field
     label: Body
@@ -49,5 +48,4 @@ fields:
     required: false
     hint: A description of the field for the editors
     localized: false
-    # Enable or not the RTE [html|text]
-    # text_formatting: html
+    text_formatting: html
