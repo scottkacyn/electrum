@@ -49,3 +49,17 @@ fields:
     required: false
     hint: A description of the field for the editors
     localized: false
+
+- phone: # Phone number of principal
+    label: Phone
+    type: string
+    required: false
+    hint: Phone number of the principal
+    localized: false
+
+- email:
+    label: Email
+    type: string
+    required: false
+    hint: Email address of the principal
+    localized: false

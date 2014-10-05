@@ -3,12 +3,12 @@ title: Contacts
 ---
 {% extends parent %}
 {% block 'main' %}
- {% for contact in contents.contacts %}
+ {% for principal in contents.principals %}
  <div class="contact">
- <p>{{ contact.name }}</p>
- <p>{{ contact.title }}</p>
- <p>{{ contact.phone }}</p>
- <p>{{ contact.email }}</p>
+ <p>{{ principal.name }}</p>
+ <p>{% editable_text "principal_title", format: "raw" %}Principal{% endeditable_text %}</p>
+ <p>{% editable_text "principal_phone", format: "raw" %}(123) 456-7890{% endeditable_text %}</p>
+ <p>{% editable_text "principal_email", format: "raw" %}example@gmail.com{% endeditable_text %}</p>
  </div>
  {% endfor %}
 {% endblock %}

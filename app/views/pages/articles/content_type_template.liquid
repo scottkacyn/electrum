@@ -8,7 +8,7 @@ content_type: articles
 
 {% block main %}
 
-  <div id="hero">
+  <div id="hero-splash">
     <div class="screen">
       <p class="hero-text">
       	{{ article.title }}
@@ -17,10 +17,6 @@ content_type: articles
   </div>
   <div class="striped-divider"></div>
   <div class="wrapper">
-  	<br>
-	<h2>Abstract</h2>
-	<p>{{ article.abstract }}</p>
-
 	<br>
 	<p>{{ article.body }}</p>
 	</div>

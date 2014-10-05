@@ -34,18 +34,24 @@ fields:
     hint: A description of the field for the editors
     localized: false
 
-- abstract: # Name of the field
-    label: Abstract
+- body: # Name of the field
+    label: Body
     type: text
-    required: false
+    required: true
     hint: A description of the field for the editors
     localized: false
     text_formatting: html
 
-- body: # Name of the field
-    label: Body
-    type: text
-    required: false
-    hint: A description of the field for the editors
+- author:
+    label: Author
+    type: string
+    required: true
+    hint: Author of the article
     localized: false
-    text_formatting: html
+
+- date:
+    label: Date Written
+    type: datetime
+    required: true
+    hint: When the article was written
+    localized: false

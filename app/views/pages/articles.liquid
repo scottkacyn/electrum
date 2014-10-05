@@ -3,15 +3,22 @@ title: Articles
 ---
 {% extends parent %}
 {% block 'main' %}
-	<div class="wrapper">
-      <div id="featured-articles">
-        {% for article in contents.articles %}
-          <div class="article" id="article-{{ forloop.index }}">
-            <div class="color-screen" id="screen-{{ forloop.index }}">
-              <h2><a href="/articles/{{ article._slug }}">{{ article.title }}</a></h2>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-	</div>
+  <div id="main">
+    <div class="inner cf">
+      <section id="content">
+        <br>
+        <h1>Articles & Research</h1>
+        <p></p>
+      {% for article in contents.articles %}
+        <div class="innercontent">
+          <h3 class="topline subdued"><a href="articles/{{ article._slug }}">{{ article.title }}</a></h3>
+          <p>{{ article.author }} | {{ article.date | localized_date: '%-m/%-d/%y' }}</p>
+          <p>{{ article.body | truncate: 140, '...' }}</p>
+          <a href="/articles/{{ article._slug }}" style="color:#31529c;">Read More</a>
+        </div>
+        <br>
+      {% endfor %}
+      </section>
+    </div>
+  </div>
 {% endblock %}

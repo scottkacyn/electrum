@@ -3,10 +3,33 @@ title: Principals
 ---
 {% extends parent %}
 {% block 'main' %}
- {% for principal in contents.principals %}
- <div class="principal">
- <h2>{{ principal.name }}</h2>
- <p>{{ principal.about }}</p>
- </div>
- {% endfor %}
+	<div id="main">
+		<div class="inner cf">
+			<section id="content">
+				<br>
+				<h1>Principals</h1>
+				<p></p>
+			{% for principal in contents.principals %}
+				<div class="innercontent">
+					<div>
+						<figure><img src="{{ principal.photo }}"></figure>
+						<h3>{{ principal.name }}</h3>
+						<p>Principal</p>
+					</div>
+					<h3 class="topline">About</h3>
+					<p>{{ principal.about }}</p>
+					<div class="addressblock new">
+						<h3 class="topline">Contact</h3>
+						<address>
+							<p>{{ principal.name }}<br>
+							{{ principal.phone }}<br>
+							{{ principal.email }}</p>
+						</address>
+					</div>
+				</div>
+				<br><br>
+			{% endfor %}
+			</section>
+		</div>
+	</div>
 {% endblock %}
