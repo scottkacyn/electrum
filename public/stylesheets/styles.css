@@ -1269,15 +1269,6 @@ form#consultants button { display: block; }
 
 #careerform label.terms { padding: 1em 0; }
 
-object, p object {
-	width: 100%;
-	min-height: 1000px;
-}
-
-.innercontent p object, .innercontent > p object {
-	display: none;
-}
-
 /* Club of leaders */
 
 .club #content > p:first-child, .club form > p { position: absolute; left: 1.3em; width: 25%; }
@@ -1506,4 +1497,13 @@ M E D I A   Q U E R I E S   >   Retina Styles
 
 .fademenu ul li a:before { background: url(../images/arrow-icon.png) center top no-repeat; background-size: 50%; }
 
+}
+
+object, p object {
+	width: 100%;
+	min-height: 1000px;
+}
+
+.innercontent p object, .innercontent > p object {
+	display: none;
 }

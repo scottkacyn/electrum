@@ -18,8 +18,8 @@ title: Articles
             </div>
           {% endif %}
           <h3 class="topline subdued"><a href="articles/{{ article._slug }}">{{ article.title }}</a></h3>
-          <p>{{ article.author }} | {{ article.date | localized_date: '%-m/%-d/%y' }}</p>
-          <p>{{ article.body | truncate: 140, '...' }}</p>
+          <p style="color:#777; font-size:90%; margin-top:-7px;">{{ article.author }} | {{ article.date | localized_date: '%-m/%-d/%y' }}</p>
+          <p>{{ article.body | truncate: 200, '...' }}</p>
           <a href="/articles/{{ article._slug }}" style="color:#31529c;">Read More</a>
         </div>
         <br>
