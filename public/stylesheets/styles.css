@@ -1274,7 +1274,7 @@ object, p object {
 	min-height: 1000px;
 }
 
-.innercontent > object {
+.innercontent p object, .innercontent > p object {
 	display: none;
 }
 
