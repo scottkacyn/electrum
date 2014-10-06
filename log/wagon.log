@@ -4868,3 +4868,95 @@ Found page "Welcome" [index]
 
 [0m
       entries_custom_fields => base, is invalid, 3, Type is not included in the list
+[0;97;49mStarted GET "/" at 2014-10-05 19:34:04 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 184.5ms
+
+[0m
+[0;97;49mStarted GET "/principals" at 2014-10-05 19:34:07 -0500[0m
+Detecting locale EN
+Found page "Principals" [principals]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.6ms
+
+[0m
+[0;97;49mStarted GET "/Consequuntur%20iure%20quis%20voluptas%20et%20modi%20ut%20vel%20maiores." at 2014-10-05 19:34:07 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.4ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-10-05 19:41:16 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.9ms
+
+[0m
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:41:34 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.5ms
+
+[0m
+* Reloaded "content_types", "content_entries" at 2014-10-05 19:42:01 -0500
+[0;97;49mStarted GET "/" at 2014-10-05 19:42:06 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 35.2ms
+
+[0m
+[0;97;49mStarted GET "/articles/intuitive-synthetic-debt" at 2014-10-05 19:42:09 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.3ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-05 19:42:11 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:45:34 -0500
+[0;97;49mStarted GET "/" at 2014-10-05 19:45:42 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.7ms
+
+[0m
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:45:44 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.5ms
+
+[0m
+[0;97;49mStarted GET "/articles/intuitive-synthetic-debt" at 2014-10-05 19:45:47 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.3ms
+
+[0m
+[0;97;49mStarted GET "/articles/a-market-based-solution-to-the-real-estate-crisis" at 2014-10-05 19:45:50 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.5ms
+
+[0m
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:45:56 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:54:10 -0500
