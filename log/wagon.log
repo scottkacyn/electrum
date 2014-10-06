@@ -4587,3 +4587,284 @@ Detecting locale EN
 [0;32;49mCompleted 404 Not Found in 2.8ms
 
 [0m
+[0;97;49mStarted GET "/" at 2014-10-05 18:59:29 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 201.4ms
+
+[0m
+[0;97;49mStarted GET "/contacts" at 2014-10-05 19:01:43 -0500[0m
+Detecting locale EN
+Found page "Contacts" [contacts]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 33.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:08:58 -0500
+[0;97;49mStarted GET "/contacts" at 2014-10-05 19:09:02 -0500[0m
+Detecting locale EN
+Found page "Principals" [contacts]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:09:21 -0500
+[0;97;49mStarted GET "/contacts" at 2014-10-05 19:09:22 -0500[0m
+Detecting locale EN
+Found page "Principals" [contacts]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:09:33 -0500
+[0;97;49mStarted GET "/contacts" at 2014-10-05 19:09:34 -0500[0m
+Detecting locale EN
+Found page "Principals" [contacts]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:10:23 -0500
+[0;97;49mStarted GET "/contacts" at 2014-10-05 19:10:24 -0500[0m
+Detecting locale EN
+Found page "Principals" [contacts]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.8ms
+
+[0m
+[0;97;49mStarted GET "/city.jpg" at 2014-10-05 19:10:24 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:12:22 -0500
+[0;97;49mStarted GET "/contacts" at 2014-10-05 19:12:23 -0500[0m
+Detecting locale EN
+Found page "Principals" [contacts]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.2ms
+
+[0m
+[0;97;49mStarted GET "/city.jpg" at 2014-10-05 19:12:24 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:12:41 -0500
+[0;97;49mStarted GET "/contacts" at 2014-10-05 19:12:42 -0500[0m
+Detecting locale EN
+Found page "Principals" [contacts]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:12:50 -0500
+[0;97;49mStarted GET "/contacts" at 2014-10-05 19:12:51 -0500[0m
+Detecting locale EN
+Found page "Principals" [contacts]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.0ms
+
+[0m
+[0;97;49mStarted GET "/principals" at 2014-10-05 19:12:56 -0500[0m
+Detecting locale EN
+Found page "Principals" [principals]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.5ms
+
+[0m
+[0;97;49mStarted GET "/Consequuntur%20iure%20quis%20voluptas%20et%20modi%20ut%20vel%20maiores." at 2014-10-05 19:12:56 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 3.2ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-10-05 19:12:59 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.0ms
+
+[0m
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:13:03 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.3ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-05 19:13:07 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.8ms
+
+[0m
+[0;97;49mStarted GET "/contacts" at 2014-10-05 19:13:27 -0500[0m
+Detecting locale EN
+Found page "Principals" [contacts]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 25.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:13:53 -0500
+[0;97;49mStarted GET "/contacts" at 2014-10-05 19:13:53 -0500[0m
+Detecting locale EN
+Found page "Principals" [contacts]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.4ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-10-05 19:13:57 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.1ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-10-05 19:14:11 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-05 19:14:12 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.4ms
+
+[0m
+[0;97;49mStarted GET "/principals" at 2014-10-05 19:14:14 -0500[0m
+Detecting locale EN
+Found page "Principals" [principals]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.6ms
+
+[0m
+[0;97;49mStarted GET "/Consequuntur%20iure%20quis%20voluptas%20et%20modi%20ut%20vel%20maiores." at 2014-10-05 19:14:14 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.4ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-10-05 19:20:13 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 253.1ms
+
+[0m
+[0;97;49mStarted GET "/articles/business-can-profit-from-the-coming-inflationary-wave" at 2014-10-05 19:20:21 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.9ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-05 19:20:28 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 21.8ms
+
+[0m
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:20:32 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:20:49 -0500
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:20:50 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-10-05 19:21:05 -0500
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:21:05 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.1ms
+
+[0m
+[0;97;49mStarted GET "/principals" at 2014-10-05 19:21:09 -0500[0m
+Detecting locale EN
+Found page "Principals" [principals]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.3ms
+
+[0m
+[0;97;49mStarted GET "/Consequuntur%20iure%20quis%20voluptas%20et%20modi%20ut%20vel%20maiores." at 2014-10-05 19:21:09 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/articles" at 2014-10-05 19:22:06 -0500[0m
+Detecting locale EN
+Found page "Articles" [articles]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-05 19:22:16 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.3ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-05 19:23:09 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.2ms
+
+[0m
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:23:11 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-05 19:23:50 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.8ms
+
+[0m
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:23:53 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.2ms
+
+[0m
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:23:59 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.5ms
+
+[0m
+[0;97;49mStarted GET "/articles/a-new-generation-of-non-debt-fixed-income-finance" at 2014-10-05 19:26:29 -0500[0m
+Detecting locale EN
+Found page "Article Template" [articles/*]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-05 19:26:32 -0500[0m
+Detecting locale EN
+Found page "Welcome" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.7ms
+
+[0m
+      entries_custom_fields => base, is invalid, 3, Type is not included in the list

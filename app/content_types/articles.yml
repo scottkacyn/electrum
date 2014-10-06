@@ -51,7 +51,14 @@ fields:
 
 - date:
     label: Date Written
-    type: datetime
+    type: date
     required: true
     hint: When the article was written
+    localized: false
+
+- pdf:
+    label: PDF Version
+    type: file
+    required: false
+    hint: A PDF version of the article (optional)
     localized: false

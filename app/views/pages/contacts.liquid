@@ -1,14 +1,39 @@
 ---
-title: Contacts
+title: Principals
 ---
 {% extends parent %}
 {% block 'main' %}
- {% for principal in contents.principals %}
- <div class="contact">
- <p>{{ principal.name }}</p>
- <p>{% editable_text "principal_title", format: "raw" %}Principal{% endeditable_text %}</p>
- <p>{% editable_text "principal_phone", format: "raw" %}(123) 456-7890{% endeditable_text %}</p>
- <p>{% editable_text "principal_email", format: "raw" %}example@gmail.com{% endeditable_text %}</p>
- </div>
- {% endfor %}
+	<div id="main">
+		<div class="inner cf">
+			<section id="content">
+				<br>
+				<h1>Contact Us</h1>
+				<p></p>
+				<div class="innercontent">
+					<div>
+						<figure><img src="/images/el.jpeg"></figure>
+						<p>Chicago, IL</p>
+					</div>
+					<h3 class="topline">Mailing Address</h3>
+					<p>Electrum Partners, LLC</p>
+					<p>{% editable_text "hq_address", format: "raw" %}
+					7222 West Cermak Road, Suite 403<br>
+					North Riverside, IL 60546<br>
+					Fax: 708-447-1517
+					{% endeditable_text %}</p>
+					<div class="addressblock new">
+						<h3 class="topline">Contact</h3>
+						{% for principal in contents.principals %}
+							<address>
+								<p>{{ principal.name }}<br>
+								{{ principal.phone }}<br>
+								{{ principal.email }}</p>
+							</address>
+						{% endfor %}
+					</div>
+				</div>
+				<br><br>
+			</section>
+		</div>
+	</div>
 {% endblock %}
