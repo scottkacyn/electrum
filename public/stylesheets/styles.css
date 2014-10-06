@@ -167,6 +167,7 @@ a.arrow:hover:after { border-left-color: #c00; }
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-size: 14px;
+	letter-spacing: 2px;
 }
 
 #main-nav h1.logo a {
@@ -297,7 +298,7 @@ S T Y L E S . C S S
 */
 
 html { background: #fff; }
-body { font: 400 93.75%/1.35 "Helvetica Neue", Helvetica, Georgia, Times, "Times New Roman", serif; color: #4f4f4f; padding-bottom: 4em; }
+body { font: 400 93.75%/1.45 "Helvetica Neue", Helvetica, Georgia, Times, "Times New Roman", serif; color: #4f4f4f; padding-bottom: 4em; }
 .ie7 body, .ie8 body, body.ffwin { font-family: Georgia, Times, "Times New Roman", serif !important; }
 .inner { position: relative; max-width: 76em; margin: 0 auto; padding: 1em; }
 
@@ -310,7 +311,7 @@ h1 { font-weight: normal; font-size: 1.5em; line-height: 1.25; color: #b61a37; m
 h1 + p, #intro p { font-size: 1.5em; line-height: 1.25; color: #757575; }
 h2 { font-size: 1em; margin-bottom: .5em; }
 h4 { font-weight: normal; margin-bottom: .5em; }
-p { line-height: 1.25; }
+p { line-height: 1.45; }
 
 a { text-decoration: none; color: #4f4f4f; }
 a:visited {  }
@@ -1271,6 +1272,10 @@ form#consultants button { display: block; }
 object, p object {
 	width: 100%;
 	min-height: 1000px;
+}
+
+.innercontent > object {
+	display: none;
 }
 
 /* Club of leaders */

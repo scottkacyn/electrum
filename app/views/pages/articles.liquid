@@ -11,6 +11,12 @@ title: Articles
         <p></p>
       {% for article in contents.articles %}
         <div class="innercontent">
+          {% if forloop.index == 1 %}
+            <div>
+              {% capture articles_photo %}{% editable_file "articles_photo" %}/images/el.jpeg{% endeditable_file %}{% endcapture %}
+              <figure><img src="{{ articles_photo | resize: '300x' }}"></figure>
+            </div>
+          {% endif %}
           <h3 class="topline subdued"><a href="articles/{{ article._slug }}">{{ article.title }}</a></h3>
           <p>{{ article.author }} | {{ article.date | localized_date: '%-m/%-d/%y' }}</p>
           <p>{{ article.body | truncate: 140, '...' }}</p>
