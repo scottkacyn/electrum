@@ -124,7 +124,7 @@ a.arrow:hover:after { border-left-color: #c00; }
 
 .wrapper {
 	position: relative;
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -1268,6 +1268,10 @@ form#consultants button { display: block; }
 
 #careerform label.terms { padding: 1em 0; }
 
+object, p object {
+	width: 100%;
+	min-height: 1000px;
+}
 
 /* Club of leaders */
 
